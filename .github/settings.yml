@@ -32,7 +32,11 @@ labels:
 
   - name: duplicate
     color: '#326699'
-    description: Duplicated
+    description: 
+    
+  - name: enhancement
+    color: '#326699'
+    description: Enhancement
 
 # collaborators:
 # # Collaborators: give specific users access to any repository.
