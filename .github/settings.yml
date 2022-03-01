@@ -27,12 +27,8 @@ labels:
     description: New functionality.
 
   - name: first-timers-only
-    oldname: Help Wanted
     color: '#326699'
-
-  - name: new-label
-    oldname: Help Wanted
-    color: '#326699'
+    description: First timers only
 
 # collaborators:
 # # Collaborators: give specific users access to any repository.
