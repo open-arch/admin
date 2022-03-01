@@ -30,6 +30,10 @@ labels:
     color: '#326699'
     description: First timers only
 
+  - name: duplicate
+    color: '#326699'
+    description: Duplicated
+
 # collaborators:
 # # Collaborators: give specific users access to any repository.
 # # See https://docs.github.com/en/rest/reference/collaborators#add-a-repository-collaborator for available options
