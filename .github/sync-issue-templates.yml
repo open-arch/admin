@@ -8,9 +8,9 @@ group:
       open-arch/openarch-specification
 
   - files:
-    - source: .github/ISSUE_TEMPLATE/config.yml
-      dest: .github/ISSUE_TEMPLATE/config.yml
     - source: .github/ISSUE_TEMPLATE/repos/pezaio/
       dest: .github/ISSUE_TEMPLATE/
+    - source: .github/ISSUE_TEMPLATE/config.yml
+      dest: .github/ISSUE_TEMPLATE/config.yml
     repos: |
       open-arch/openarch-api
