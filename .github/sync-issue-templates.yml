@@ -4,9 +4,8 @@ group:
       dest: .github/ISSUE_TEMPLATE/
       exclude: repos/*
     repos: |
-      pezaio/gateway
-      pezaio/api-docs
-      pezaio/identity
+      open-arch/oarch
+      open-arch/openarch-specification
 
   - files:
     - source: ../ISSUE_TEMPLATE/config.yml
@@ -14,4 +13,4 @@ group:
     - source: ../ISSUE_TEMPLATE/repos/pezaio/
       dest: .github/ISSUE_TEMPLATE/
     repos: |
-      pezaio/pezaio
+      open-arch/openarch-api
