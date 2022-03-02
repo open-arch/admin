@@ -104,6 +104,6 @@ labels:
 #         apps: []
 #         users: []
 #         teams: []
-        
+
 validator:
   pattern: '[a-zA-Z0-9_-]+'
