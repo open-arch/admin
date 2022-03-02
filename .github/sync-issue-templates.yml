@@ -1,6 +1,6 @@
 group:
   - files:
-    - source: ../ISSUE_TEMPLATE/
+    - source: .github/ISSUE_TEMPLATE/
       dest: .github/ISSUE_TEMPLATE/
       exclude: repos/*
     repos: |
@@ -8,9 +8,8 @@ group:
       open-arch/openarch-specification
 
   - files:
-    - source: ../ISSUE_TEMPLATE/config.yml
-      dest: .github/ISSUE_TEMPLATE/config.yml
-    - source: ../ISSUE_TEMPLATE/repos/pezaio/
+    - .github/ISSUE_TEMPLATE/config.yml
+    - source: .github/ISSUE_TEMPLATE/repos/pezaio/
       dest: .github/ISSUE_TEMPLATE/
     repos: |
       open-arch/openarch-api
