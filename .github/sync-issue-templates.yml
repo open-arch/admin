@@ -2,13 +2,14 @@ group:
   - files:
     - source: .github/ISSUE_TEMPLATE/
       dest: .github/ISSUE_TEMPLATE/
-      exclude: repos/*
+      exclude: repos
     repos: |
       open-arch/oarch
       open-arch/openarch-specification
 
   - files:
-    - .github/ISSUE_TEMPLATE/config.yml
+    - source: .github/ISSUE_TEMPLATE/config.yml
+      dest: .github/ISSUE_TEMPLATE/config.yml
     - source: .github/ISSUE_TEMPLATE/repos/pezaio/
       dest: .github/ISSUE_TEMPLATE/
     repos: |
