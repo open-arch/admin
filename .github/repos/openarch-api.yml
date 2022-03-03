@@ -8,4 +8,4 @@ repository:
 milestones:
   - title: Whatever
     description: Whatever new description
-    state: open
+    state: closed
