@@ -9,7 +9,3 @@ milestones:
   - title: Whatever
     description: Whatever new description
     state: closed
-
-collaborators:
-  - username: svg153
-    permission: pull
