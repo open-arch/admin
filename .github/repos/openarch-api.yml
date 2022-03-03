@@ -9,3 +9,6 @@ milestones:
   - title: Whatever2
     description: Whatever2 description
     state: open
+  - title: Whatever3
+    description: Whatever3 description
+    state: open
