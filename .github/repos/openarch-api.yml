@@ -6,6 +6,6 @@ repository:
   # has_issues: false
 
 milestones:
-  - title: Whatever3
+  - title: Whatever
     description: Whatever3 new description
     state: open
