@@ -49,15 +49,6 @@ collaborators:
   # See https://docs.github.com/en/rest/reference/collaborators#add-a-repository-collaborator for available options
   - username: gomete
     permission: admin
-  - username: serpargu
-    permission: push
-    include:
-      - oarch
-      - openarch-api
-  - username: svg153
-    permission: pull
-    exclude:
-      - openarch-api
 
 # # See https://docs.github.com/en/rest/reference/teams#create-a-team for available options
 # teams:
