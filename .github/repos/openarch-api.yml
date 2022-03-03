@@ -3,4 +3,9 @@ repository:
   name: openarch-api
   #force_create: true
   #template_repo: template_repo
-  has_issues: false
+  # has_issues: false
+
+milestones:
+  - title: Whatever2
+    description: Whatever2 description
+    state: open

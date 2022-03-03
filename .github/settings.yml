@@ -38,6 +38,12 @@ labels:
     color: '#326699'
     description: Enhancement
 
+# Milestones: define milestones for Issues and Pull Requests
+milestones:
+  - title: Whatever
+    description: Whatever description
+    state: open
+
 # collaborators:
 # # Collaborators: give specific users access to any repository.
 # # See https://docs.github.com/en/rest/reference/collaborators#add-a-repository-collaborator for available options
