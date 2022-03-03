@@ -40,9 +40,6 @@ labels:
 
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
-  - title: Whatever
-    description: Whatever description
-    state: open
 
 # collaborators:
 # # Collaborators: give specific users access to any repository.
