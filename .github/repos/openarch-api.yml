@@ -6,3 +6,6 @@ repository:
   # has_issues: false
 
 milestones:
+  - title: Whatever
+    description: Whatever new description
+    state: closed

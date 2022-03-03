@@ -40,28 +40,24 @@ labels:
 
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
+  - title: Whatever
+    description: Whatever description
+    state: open
 
-# collaborators:
-# # Collaborators: give specific users access to any repository.
-# # See https://docs.github.com/en/rest/reference/collaborators#add-a-repository-collaborator for available options
-# - username: regpaco
-#   permission: push
-# # The permission to grant the collaborator. Can be one of:
-# # * `pull` - can pull, but not push to or administer this repository.
-# # * `push` - can pull and push, but not administer this repository.
-# # * `admin` - can pull, push and administer this repository.
-# - username: beetlejuice
-#   permission: pull
-# # You can exclude a list of repos for this collaborator and all repos except these repos would have this collaborator
-#   exclude:
-#   - actions-demo
-
-# - username: thor
-#   permission: push
-# # You can include a list of repos for this collaborator and only those repos would have this collaborator
-#   include:
-#   - actions-demo
-#   - another-repo
+collaborators:
+  # Collaborators: give specific users access to any repository.
+  # See https://docs.github.com/en/rest/reference/collaborators#add-a-repository-collaborator for available options
+  - username: gomete
+    permission: admin
+  - username: serpargu
+    permission: push
+    include:
+      - oarch
+      - openarch-api
+  - username: svg153
+    permission: pull
+    exclude:
+      - openarch-api
 
 # # See https://docs.github.com/en/rest/reference/teams#create-a-team for available options
 # teams:
