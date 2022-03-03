@@ -9,3 +9,7 @@ milestones:
   - title: Whatever
     description: Whatever new description
     state: closed
+teams:
+  - name: dev
+    permission: pull
+    privacy: secret
