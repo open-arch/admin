@@ -12,4 +12,3 @@ milestones:
 teams:
   - name: dev
     permission: pull
-    privacy: secret
